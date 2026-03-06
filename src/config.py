@@ -269,6 +269,8 @@ For each news item:
             return os.getenv("XAI_API_KEY")
         elif provider == "openai":
             return os.getenv("OPENAI_API_KEY")
+        elif provider == "qwen":
+            return os.getenv("QWEN_API_KEY") or os.getenv("DASHSCOPE_API_KEY")
         return None
 
     def get(self, key: str, default: Any = None) -> Any:
