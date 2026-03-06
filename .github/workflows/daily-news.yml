@@ -47,6 +47,9 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+          QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+          QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
 
           # Optional: Specify a model (if not set, uses provider's default)
           # Examples: claude-sonnet-4-5-20250929, deepseek-chat, deepseek-reasoner
